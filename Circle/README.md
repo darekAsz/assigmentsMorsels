@@ -54,7 +54,15 @@ Traceback (most recent call last):
 ValueError: Radius cannot be negative
 Hints
 
+Hints for when you get stuck (hover over links to see what they're about):
 
+How do I write a class in Python?
+Where to find the value of pi
+Creating a string representation for your class
+How to make diameter and area auto-update
+Updating the diameter
+Making attributes read-only
+Tests
 
 Automated tests for this week's exercise can be found here. You'll need to write your function in a module named circle.py next to the test file. To run the tests you'll run "python test_circle.py" and check the output for "OK". You'll see that there are some "expected failures" (or "unexpected successes" maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
 
