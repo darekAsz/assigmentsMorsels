@@ -24,10 +24,15 @@ Circle(5)
 Additionally the radius should default to 1 if no radius is specified when you create your circle:
 
 >>> c = Circle()
+
 >>> c.radius
+
 1
+
 >>> c.diameter
+
 2
+
 There are three bonuses for this exercise.
 
 Bonus 1
@@ -35,28 +40,43 @@ Bonus 1
 For the first bonus, make sure when the radius of your class changes that the diameter and area both change as well: ✔️
 
 >>> c = Circle(2)
+
 >>> c.radius = 1
+
 >>> c.diameter
+
 2
+
 >>> c.area
+
 3.141592653589793
+
 >>> c
+
 Circle(1)
+
 Bonus 2
 
 For the second bonus, make sure you can set the diameter attribute in your Circle class and the radius will update and also that you cannot set the area (setting area should raise an AttributeError): ✔️
 
 >>> c = Circle(1)
+
 >>> c.diameter = 4
+
 >>> c.radius
+
 2.0
+
 Bonus 3
 
 For the third bonus, make sure your radius cannot be set to a negative number: ✔️
 
 >>> c = Circle(5)
+
 >>> c.radius = 3
+
 >>> c.radius = -2
+
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "circle.py", line 27, in radius
